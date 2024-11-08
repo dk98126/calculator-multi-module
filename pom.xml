@@ -15,7 +15,9 @@
     </modules>
 
     <properties>
-        <calculator.version>2.0</calculator.version>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -26,20 +28,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>ru.hh.school</groupId>
-                <artifactId>calculator-multi-module-calculator</artifactId>
-                <version>${calculator.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>ru.hh.school</groupId>
-                <artifactId>calculator-multi-module-operation</artifactId>
-                <version>${calculator.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
 </project>

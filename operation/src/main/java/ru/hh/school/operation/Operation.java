@@ -27,12 +27,12 @@ public enum Operation {
     return str;
   }
 
-  public String description() {
-    return switch (this) {
-      case PLUS -> "сложение";
-      case MINUS -> "вычитание";
-      case MULTIPLY -> "умножение";
-      case DIVIDE -> "деление";
-    };
-  }
+//  public String description() {
+//    return switch (this) {
+//      case PLUS -> "сложение";
+//      case MINUS -> "вычитание";
+//      case MULTIPLY -> "умножение";
+//      case DIVIDE -> "деление";
+//    };
+//  }
 }

@@ -16,10 +16,12 @@
         <dependency>
             <groupId>ru.hh.school</groupId>
             <artifactId>calculator-multi-module-calculator</artifactId>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>ru.hh.school</groupId>
             <artifactId>calculator-multi-module-operation</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
